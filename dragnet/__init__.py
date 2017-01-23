@@ -5,8 +5,6 @@ from dragnet.kohlschuetter import kohlschuetter_features, kohlschuetter
 from dragnet.util import evaluation_metrics
 from dragnet.weninger import weninger_features_kmeans
 from dragnet.readability import readability_features
-from dragnet.models import content_extractor, content_comments_extractor
-
 
 class AllFeatures(object):
     """Easy access to feature instances.
